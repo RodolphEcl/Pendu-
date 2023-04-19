@@ -109,11 +109,8 @@ char readCaracter(){
 
 // function that generates a random number
 int generateRandomNum(){
-    int randomNum = 0;
     srand(time(NULL));
-    randomNum = (rand() % (10 - 1 + 1)) + 1;
-    return randomNum;
-
+    return (rand() % (10 - 1 + 1)) + 1;
 
 }
 
